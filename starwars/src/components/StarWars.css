@@ -1,0 +1,30 @@
+h2{
+    text-decoration: underline;
+    font-size: 2rem;
+    color: black;
+}
+p,
+h2,
+h3
+{
+    font-family: 'Titillium Web', sans-serif;
+}
+.character-card{
+    border: 3px solid black;
+    width: 49%;
+    background-color: rgb(34, 34, 34, .5);
+    font-weight: bold;
+    margin: 4px 4px;
+    color:	#F0FFFF;
+    
+}
+.character-card:hover{
+    background: white;
+    color: black;
+}
+.characters {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
